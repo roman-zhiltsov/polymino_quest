@@ -55,9 +55,10 @@ def main():
     #field = Field(config.TEST_FIELD)
     #field = Field(config.FIELD_3X10)  # 8.5, 0.95
     #field = Field(config.FIELD_3X15)  # 1223, 35.8
-    #field = Field(config.FIELD_3X20)  # 71775, 919
-    field = Field(config.FIELD_8X8)  # 434, 432
-    #field = Field(config.FIELD_4X15)  # ?, 10821
+    #field = Field(config.FIELD_3X20)  # 71775, 919; pypy 114
+    #field = Field(config.FIELD_8X8)  # 434, 432; pypy 52
+    #field = Field(config.FIELD_4X15)  # ?, 10821; pypy 960
+    field = Field(config.FIELD_5X12)  # ?, _; pypy 1597
     #field = Field(config.DIAG_FIELD_WITH_HOLE)  #294, 88
     #field = Field(config.SPECIAL_FIELD)  #?, 714
     #field = Field(config.SPECIAL_FIELD_2)  # ?, ?
